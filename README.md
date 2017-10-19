@@ -5,6 +5,7 @@ Application de prise de notes pour Android et iOS, réalisée avec React Native 
 
 ```bash
 git clone https://github.com/fabioavelino/app-notes-react-native.git
+cd app-notes-react-native
 npm install
 npm start
 ```
