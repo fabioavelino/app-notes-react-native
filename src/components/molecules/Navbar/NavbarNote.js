@@ -21,11 +21,10 @@ const NavbarNote = ({ onPressBackButton, isSaved, onDelete, onSave }) => {
 const getStyle = isSaved =>
   StyleSheet.create({
     actualPageText: {
-      marginLeft: Platform.OS === 'android' ? 8 : isSaved ? 56 : 8,
-      marginRight: 8
+      marginLeft: Platform.OS === 'android' ? 8 : isSaved ? 48 : 0
     },
     lastIcon: {
-      marginLeft: 20
+      marginLeft: isSaved ? 20 : 0
     }
   })
 
